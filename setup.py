@@ -2,8 +2,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='liqpay-python',
-    version='0.1',
+    name='liqpay-python3',
+    version='1.1',
     description='LiqPay Python3 SDK',
     packages=find_packages(),
     include_package_data=True,
