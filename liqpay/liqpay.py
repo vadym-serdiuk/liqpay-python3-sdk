@@ -75,7 +75,7 @@ class LiqPay(object):
         request_url = urljoin(self._host, url)
         request_data = {'data': json_encoded_params, 'signature': signature}
         response = requests.post(request_url, data=request_data, verify=False)
-        return json.loads(response.content)
+        return json.loads(response.content.decode('utf8'))
 
     def cnb_form(self, params):
         params = self._prepare_params(params)
