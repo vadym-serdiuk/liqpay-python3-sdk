@@ -6,7 +6,7 @@ requires requests module
 """
 
 __title__ = 'LiqPay Python3 SDK'
-__version__ = '1.1'
+__version__ = '1.1.1'
 
 import base64
 from copy import deepcopy
